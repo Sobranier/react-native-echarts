@@ -32,7 +32,7 @@ export default class App extends Component {
             backgroundColor: this.props.backgroundColor || 'transparent'
           }}
           scalesPageToFit={Platform.OS !== 'ios'}
-          source={require('./tpl.html')}
+          source={require('https://img-oss.yunshanmeicai.com/crm/react-native/images/0.0.6/html/tpl.html')}
           onMessage={event => this.props.onPress ? this.props.onPress(JSON.parse(event.nativeEvent.data)) : null}
         />
       </View>
