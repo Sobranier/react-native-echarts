@@ -1,12 +1,10 @@
 # native-echarts
-
-[![NPM Version](https://img.shields.io/npm/v/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![npm](https://img.shields.io/npm/dm/native-echarts.svg?style=flat)](https://www.npmjs.org/package/native-echarts)
   [![License](http://img.shields.io/npm/l/native-echarts.svg?style=flat)](https://raw.githubusercontent.com/somonus/react-native-echarts/master/LICENSE.md)
   
 ## install
 
-$ npm install native-echarts --save
+$ mnpm install @mc/native-echarts --save
 
 ## Usage
 
@@ -27,7 +25,7 @@ import {
   Text,
   View
 } from 'react-native';
-import Echarts from 'native-echarts';
+import Echarts from '@mc/native-echarts';
 
 export default class app extends Component {
   render() {
